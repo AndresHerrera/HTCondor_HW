@@ -1,0 +1,6 @@
+Universe = vanilla
+should_transfer_files = Yes
+transfer_input_files = collect2,sin_result2.txt,cos_result2.txt
+when_to_transfer_output= ON_EXIT
+Executable = collect2
+Queue

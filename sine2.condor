@@ -1,0 +1,6 @@
+Universe = vanilla
+should_transfer_files = Yes
+transfer_input_files = sin2, number.txt
+when_to_transfer_output= ON_EXIT
+Executable = sin2
+Queue
