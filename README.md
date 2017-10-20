@@ -102,4 +102,4 @@ condor_submit_dag -update_submit composetask2.dag
 
 - Video
 
-<script type="text/javascript" src="https://asciinema.org/a/jgQpizPaWW5U3mCbOMPvhcfEz.js" id="asciicast-jgQpizPaWW5U3mCbOMPvhcfEz" async></script>
+<a href="https://asciinema.org/a/jgQpizPaWW5U3mCbOMPvhcfEz" target="_blank"><img src="https://asciinema.org/a/jgQpizPaWW5U3mCbOMPvhcfEz.png" /></a>
