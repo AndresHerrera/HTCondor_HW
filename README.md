@@ -22,19 +22,22 @@ gcc -o collect collect.c -lm
 ```
 
 
-- HTCondor files
+### HTCondor files
+```
+cosine.condor
+sine.condor
+collect.condor
+composetask.dag
+```
 
-- cosine.condor
-- sine.condor
-- collect.condor
-- composetask.dag
-
+```
 cosine             sine
 	\         /
          \       /
           collect
              |
       collect_result.txt
+```
 
 - Submit dag 
 
