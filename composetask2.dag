@@ -1,0 +1,5 @@
+Job exec exec.condor
+Job sine sine.condor
+Job cosine cosine.condor
+Job collect collect.condor
+PARENT sine cosine CHILD collect

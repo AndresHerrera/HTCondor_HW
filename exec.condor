@@ -1,0 +1,6 @@
+Universe = vanilla
+should_transfer_files = Yes
+transfer_input_files = sin, cos, exec.sh
+when_to_transfer_output= ON_EXIT
+executable = exec.sh
+Queue

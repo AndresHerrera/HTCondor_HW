@@ -1,0 +1,195 @@
+10/20/17 02:17:31 ******************************************************
+10/20/17 02:17:31 ** condor_scheduniv_exec.54.0 (CONDOR_DAGMAN) STARTING UP
+10/20/17 02:17:31 ** /usr/bin/condor_dagman
+10/20/17 02:17:31 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+10/20/17 02:17:31 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+10/20/17 02:17:31 ** $CondorVersion: 8.6.6 Sep 11 2017 BuildID: 416237 $
+10/20/17 02:17:31 ** $CondorPlatform: x86_64_Ubuntu14 $
+10/20/17 02:17:31 ** PID = 4071
+10/20/17 02:17:31 ** Log last touched time unavailable (No such file or directory)
+10/20/17 02:17:31 ******************************************************
+10/20/17 02:17:31 Using config source: /etc/condor/condor_config
+10/20/17 02:17:31 Using local config sources: 
+10/20/17 02:17:31    /etc/condor/condor_config.local
+10/20/17 02:17:31 config Macros = 75, Sorted = 75, StringBytes = 2021, TablesBytes = 2748
+10/20/17 02:17:31 CLASSAD_CACHING is ENABLED
+10/20/17 02:17:31 Daemon Log is logging: D_ALWAYS D_ERROR
+10/20/17 02:17:31 DaemonCore: No command port requested.
+10/20/17 02:17:31 DAGMAN_USE_STRICT setting: 1
+10/20/17 02:17:31 DAGMAN_VERBOSITY setting: 3
+10/20/17 02:17:31 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+10/20/17 02:17:31 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+10/20/17 02:17:31 DAGMAN_SUBMIT_DELAY setting: 0
+10/20/17 02:17:31 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+10/20/17 02:17:31 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+10/20/17 02:17:31 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+10/20/17 02:17:31 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+10/20/17 02:17:31 DAGMAN_DEFAULT_PRIORITY setting: 0
+10/20/17 02:17:31 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+10/20/17 02:17:31 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+10/20/17 02:17:31 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+10/20/17 02:17:31 DAGMAN_RETRY_NODE_FIRST setting: False
+10/20/17 02:17:31 DAGMAN_MAX_JOBS_IDLE setting: 1000
+10/20/17 02:17:31 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+10/20/17 02:17:31 DAGMAN_MAX_PRE_SCRIPTS setting: 20
+10/20/17 02:17:31 DAGMAN_MAX_POST_SCRIPTS setting: 20
+10/20/17 02:17:31 DAGMAN_MUNGE_NODE_NAMES setting: True
+10/20/17 02:17:31 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+10/20/17 02:17:31 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+10/20/17 02:17:31 DAGMAN_ALWAYS_RUN_POST setting: False
+10/20/17 02:17:31 DAGMAN_ABORT_DUPLICATES setting: True
+10/20/17 02:17:31 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+10/20/17 02:17:31 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+10/20/17 02:17:31 DAGMAN_AUTO_RESCUE setting: True
+10/20/17 02:17:31 DAGMAN_MAX_RESCUE_NUM setting: 100
+10/20/17 02:17:31 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+10/20/17 02:17:31 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+10/20/17 02:17:31 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+10/20/17 02:17:31 DAGMAN_MAX_JOB_HOLDS setting: 100
+10/20/17 02:17:31 DAGMAN_HOLD_CLAIM_TIME setting: 20
+10/20/17 02:17:31 ALL_DEBUG setting: 
+10/20/17 02:17:31 DAGMAN_DEBUG setting: 
+10/20/17 02:17:31 DAGMAN_SUPPRESS_JOB_LOGS setting: False
+10/20/17 02:17:31 DAGMAN_REMOVE_NODE_JOBS setting: True
+10/20/17 02:17:31 argv[0] == "condor_scheduniv_exec.54.0"
+10/20/17 02:17:31 argv[1] == "-Lockfile"
+10/20/17 02:17:31 argv[2] == "composetask.dag.lock"
+10/20/17 02:17:31 argv[3] == "-AutoRescue"
+10/20/17 02:17:31 argv[4] == "1"
+10/20/17 02:17:31 argv[5] == "-DoRescueFrom"
+10/20/17 02:17:31 argv[6] == "0"
+10/20/17 02:17:31 argv[7] == "-Dag"
+10/20/17 02:17:31 argv[8] == "composetask.dag"
+10/20/17 02:17:31 argv[9] == "-Suppress_notification"
+10/20/17 02:17:31 argv[10] == "-CsdVersion"
+10/20/17 02:17:31 argv[11] == "$CondorVersion: 8.6.6 Sep 11 2017 BuildID: 416237 $"
+10/20/17 02:17:31 argv[12] == "-Dagman"
+10/20/17 02:17:31 argv[13] == "/usr/bin/condor_dagman"
+10/20/17 02:17:31 Workflow batch-name: <composetask.dag+54>
+10/20/17 02:17:31 Workflow accounting_group: <>
+10/20/17 02:17:31 Workflow accounting_group_user: <>
+10/20/17 02:17:31 Warning: failed to get attribute DAGNodeName
+10/20/17 02:17:31 DAGMAN_LOG_ON_NFS_IS_ERROR setting: False
+10/20/17 02:17:31 Default node log file is: </home/vagrant/2017-10-19/./composetask.dag.nodes.log>
+10/20/17 02:17:31 DAG Lockfile will be written to composetask.dag.lock
+10/20/17 02:17:31 DAG Input file is composetask.dag
+10/20/17 02:17:31 Parsing 1 dagfiles
+10/20/17 02:17:31 Parsing composetask.dag ...
+10/20/17 02:17:31 Dag contains 3 total jobs
+10/20/17 02:17:31 Sleeping for 3 seconds to ensure ProcessId uniqueness
+10/20/17 02:17:34 Bootstrapping...
+10/20/17 02:17:34 Number of pre-completed nodes: 0
+10/20/17 02:17:34 MultiLogFiles: truncating log file /home/vagrant/2017-10-19/./composetask.dag.nodes.log
+10/20/17 02:17:34 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:17:34 Of 3 nodes total:
+10/20/17 02:17:34  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:17:34   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:17:34     0       0        0       0       2          1        0
+10/20/17 02:17:34 0 job proc(s) currently held
+10/20/17 02:17:34 Registering condor_event_timer...
+10/20/17 02:17:35 Submitting HTCondor Node sine job(s)...
+10/20/17 02:17:35 Adding a DAGMan workflow log /home/vagrant/2017-10-19/./composetask.dag.nodes.log
+10/20/17 02:17:35 Masking the events recorded in the DAGMAN workflow log
+10/20/17 02:17:35 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/20/17 02:17:35 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'sine -a +DAGManJobId' '=' '54 -a DAGManJobId' '=' '54 -batch-name composetask.dag+54 -a submit_event_notes' '=' 'DAG' 'Node:' 'sine -a dagman_log' '=' '/home/vagrant/2017-10-19/./composetask.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" sine.condor
+10/20/17 02:17:35 From submit: Submitting job(s).
+10/20/17 02:17:35 From submit: 1 job(s) submitted to cluster 55.
+10/20/17 02:17:35 	assigned HTCondor ID (55.0.0)
+10/20/17 02:17:35 Submitting HTCondor Node cosine job(s)...
+10/20/17 02:17:35 Adding a DAGMan workflow log /home/vagrant/2017-10-19/./composetask.dag.nodes.log
+10/20/17 02:17:35 Masking the events recorded in the DAGMAN workflow log
+10/20/17 02:17:35 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/20/17 02:17:35 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'cosine -a +DAGManJobId' '=' '54 -a DAGManJobId' '=' '54 -batch-name composetask.dag+54 -a submit_event_notes' '=' 'DAG' 'Node:' 'cosine -a dagman_log' '=' '/home/vagrant/2017-10-19/./composetask.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +KeepClaimIdle' '=' '20 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"" cosine.condor
+10/20/17 02:17:35 From submit: Submitting job(s).
+10/20/17 02:17:35 From submit: 1 job(s) submitted to cluster 56.
+10/20/17 02:17:35 	assigned HTCondor ID (56.0.0)
+10/20/17 02:17:35 Just submitted 2 jobs this cycle...
+10/20/17 02:17:35 Currently monitoring 1 HTCondor log file(s)
+10/20/17 02:17:35 Reassigning the id of job sine from (55.0.0) to (55.0.0)
+10/20/17 02:17:35 Event: ULOG_SUBMIT for HTCondor Node sine (55.0.0) {10/20/17 02:17:35}
+10/20/17 02:17:35 Number of idle job procs: 1
+10/20/17 02:17:35 Reassigning the id of job cosine from (56.0.0) to (56.0.0)
+10/20/17 02:17:35 Event: ULOG_SUBMIT for HTCondor Node cosine (56.0.0) {10/20/17 02:17:35}
+10/20/17 02:17:35 Number of idle job procs: 2
+10/20/17 02:17:35 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:17:35 Of 3 nodes total:
+10/20/17 02:17:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:17:35   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:17:35     0       0        2       0       0          1        0
+10/20/17 02:17:35 0 job proc(s) currently held
+10/20/17 02:17:55 Currently monitoring 1 HTCondor log file(s)
+10/20/17 02:17:55 Event: ULOG_EXECUTE for HTCondor Node sine (55.0.0) {10/20/17 02:17:53}
+10/20/17 02:17:55 Number of idle job procs: 1
+10/20/17 02:17:55 Event: ULOG_IMAGE_SIZE for HTCondor Node sine (55.0.0) {10/20/17 02:17:53}
+10/20/17 02:17:55 Event: ULOG_JOB_TERMINATED for HTCondor Node sine (55.0.0) {10/20/17 02:17:54}
+10/20/17 02:17:55 Number of idle job procs: 1
+10/20/17 02:17:55 Node sine job proc (55.0.0) completed successfully.
+10/20/17 02:17:55 Node sine job completed
+10/20/17 02:17:55 Event: ULOG_EXECUTE for HTCondor Node cosine (56.0.0) {10/20/17 02:17:55}
+10/20/17 02:17:55 Number of idle job procs: 0
+10/20/17 02:17:55 Event: ULOG_IMAGE_SIZE for HTCondor Node cosine (56.0.0) {10/20/17 02:17:55}
+10/20/17 02:17:55 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:17:55 Of 3 nodes total:
+10/20/17 02:17:55  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:17:55   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:17:55     1       0        1       0       0          1        0
+10/20/17 02:17:55 0 job proc(s) currently held
+10/20/17 02:18:00 Currently monitoring 1 HTCondor log file(s)
+10/20/17 02:18:00 Event: ULOG_JOB_TERMINATED for HTCondor Node cosine (56.0.0) {10/20/17 02:17:56}
+10/20/17 02:18:00 Number of idle job procs: 0
+10/20/17 02:18:00 Node cosine job proc (56.0.0) completed successfully.
+10/20/17 02:18:00 Node cosine job completed
+10/20/17 02:18:00 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:18:00 Of 3 nodes total:
+10/20/17 02:18:00  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:18:00   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:18:00     2       0        0       0       1          0        0
+10/20/17 02:18:00 0 job proc(s) currently held
+10/20/17 02:18:05 Submitting HTCondor Node collect job(s)...
+10/20/17 02:18:05 Adding a DAGMan workflow log /home/vagrant/2017-10-19/./composetask.dag.nodes.log
+10/20/17 02:18:05 Masking the events recorded in the DAGMAN workflow log
+10/20/17 02:18:05 Mask for workflow log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+10/20/17 02:18:05 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'collect -a +DAGManJobId' '=' '54 -a DAGManJobId' '=' '54 -batch-name composetask.dag+54 -a submit_event_notes' '=' 'DAG' 'Node:' 'collect -a dagman_log' '=' '/home/vagrant/2017-10-19/./composetask.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a notification' '=' 'never -a +DAGParentNodeNames' '=' '"sine,cosine" collect.condor
+10/20/17 02:18:05 From submit: Submitting job(s).
+10/20/17 02:18:05 From submit: 1 job(s) submitted to cluster 57.
+10/20/17 02:18:06 	assigned HTCondor ID (57.0.0)
+10/20/17 02:18:06 Just submitted 1 job this cycle...
+10/20/17 02:18:06 Currently monitoring 1 HTCondor log file(s)
+10/20/17 02:18:06 Reassigning the id of job collect from (57.0.0) to (57.0.0)
+10/20/17 02:18:06 Event: ULOG_SUBMIT for HTCondor Node collect (57.0.0) {10/20/17 02:18:05}
+10/20/17 02:18:06 Number of idle job procs: 1
+10/20/17 02:18:06 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:18:06 Of 3 nodes total:
+10/20/17 02:18:06  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:18:06   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:18:06     2       0        1       0       0          0        0
+10/20/17 02:18:06 0 job proc(s) currently held
+10/20/17 02:18:11 Currently monitoring 1 HTCondor log file(s)
+10/20/17 02:18:11 Event: ULOG_EXECUTE for HTCondor Node collect (57.0.0) {10/20/17 02:18:07}
+10/20/17 02:18:11 Number of idle job procs: 0
+10/20/17 02:18:11 Event: ULOG_IMAGE_SIZE for HTCondor Node collect (57.0.0) {10/20/17 02:18:07}
+10/20/17 02:18:11 Event: ULOG_JOB_TERMINATED for HTCondor Node collect (57.0.0) {10/20/17 02:18:08}
+10/20/17 02:18:11 Number of idle job procs: 0
+10/20/17 02:18:11 Node collect job proc (57.0.0) completed successfully.
+10/20/17 02:18:11 Node collect job completed
+10/20/17 02:18:11 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:18:11 Of 3 nodes total:
+10/20/17 02:18:11  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:18:11   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:18:11     3       0        0       0       0          0        0
+10/20/17 02:18:11 0 job proc(s) currently held
+10/20/17 02:18:11 All jobs Completed!
+10/20/17 02:18:11 Note: 0 total job deferrals because of -MaxJobs limit (0)
+10/20/17 02:18:11 Note: 0 total job deferrals because of -MaxIdle limit (1000)
+10/20/17 02:18:11 Note: 0 total job deferrals because of node category throttles
+10/20/17 02:18:11 Note: 0 total PRE script deferrals because of -MaxPre limit (20) or DEFER
+10/20/17 02:18:11 Note: 0 total POST script deferrals because of -MaxPost limit (20) or DEFER
+10/20/17 02:18:11 DAG status: 0 (DAG_STATUS_OK)
+10/20/17 02:18:11 Of 3 nodes total:
+10/20/17 02:18:11  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+10/20/17 02:18:11   ===     ===      ===     ===     ===        ===      ===
+10/20/17 02:18:11     3       0        0       0       0          0        0
+10/20/17 02:18:11 0 job proc(s) currently held
+10/20/17 02:18:11 Wrote metrics file composetask.dag.metrics.
+10/20/17 02:18:11 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+10/20/17 02:18:11 **** condor_scheduniv_exec.54.0 (condor_DAGMAN) pid 4071 EXITING WITH STATUS 0

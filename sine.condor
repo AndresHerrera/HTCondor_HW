@@ -1,0 +1,7 @@
+Universe = vanilla
+should_transfer_files = Yes
+transfer_input_files = sin
+when_to_transfer_output= ON_EXIT
+Executable = sin
+Arguments = 45
+Queue
