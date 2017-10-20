@@ -20,8 +20,8 @@ int main(int argc, char** argv) {
           fclose(file_input);
         }
 
-    	x = cos( res_number * (PI/180)  );
-    	filename = "cos_result2.txt";
+    	x = sin( res_number * (PI/180)  );
+    	filename = "sin_result2.txt";
     	fd = fopen(filename,"w");
     	if (fd == NULL) {
             	printf("File can not be created\n");
