@@ -1,16 +1,16 @@
-000 (055.000.000) 10/20 02:17:35 Job submitted from host: <10.0.2.15:12711?addrs=10.0.2.15-12711+[--1]-12711>
+000 (067.000.000) 10/20 15:08:59 Job submitted from host: <10.0.2.15:36840?addrs=10.0.2.15-36840+[--1]-36840>
     DAG Node: sine
 ...
-000 (056.000.000) 10/20 02:17:35 Job submitted from host: <10.0.2.15:12711?addrs=10.0.2.15-12711+[--1]-12711>
+000 (068.000.000) 10/20 15:08:59 Job submitted from host: <10.0.2.15:36840?addrs=10.0.2.15-36840+[--1]-36840>
     DAG Node: cosine
 ...
-001 (055.000.000) 10/20 02:17:53 Job executing on host: <10.0.2.15:25007?addrs=10.0.2.15-25007+[--1]-25007>
+001 (067.000.000) 10/20 15:09:19 Job executing on host: <10.0.2.15:2610?addrs=10.0.2.15-2610+[--1]-2610>
 ...
-006 (055.000.000) 10/20 02:17:53 Image size of job updated: 10
+006 (067.000.000) 10/20 15:09:19 Image size of job updated: 10
 	0  -  MemoryUsage of job (MB)
 	0  -  ResidentSetSize of job (KB)
 ...
-005 (055.000.000) 10/20 02:17:54 Job terminated.
+005 (067.000.000) 10/20 15:09:20 Job terminated.
 	(1) Normal termination (return value 0)
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -22,16 +22,16 @@
 	17656  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       26       20  37782008
+	   Disk (KB)            :       26       20  37683612
 	   Memory (MB)          :        0        1       489
 ...
-001 (056.000.000) 10/20 02:17:55 Job executing on host: <10.0.2.15:25007?addrs=10.0.2.15-25007+[--1]-25007>
+001 (068.000.000) 10/20 15:09:21 Job executing on host: <10.0.2.15:2610?addrs=10.0.2.15-2610+[--1]-2610>
 ...
-006 (056.000.000) 10/20 02:17:55 Image size of job updated: 10
+006 (068.000.000) 10/20 15:09:22 Image size of job updated: 10
 	0  -  MemoryUsage of job (MB)
 	0  -  ResidentSetSize of job (KB)
 ...
-005 (056.000.000) 10/20 02:17:56 Job terminated.
+005 (068.000.000) 10/20 15:09:23 Job terminated.
 	(1) Normal termination (return value 0)
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -43,19 +43,19 @@
 	17654  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       26       20  37782008
+	   Disk (KB)            :       26       20  37683612
 	   Memory (MB)          :        0        1       489
 ...
-000 (057.000.000) 10/20 02:18:05 Job submitted from host: <10.0.2.15:12711?addrs=10.0.2.15-12711+[--1]-12711>
+000 (069.000.000) 10/20 15:09:29 Job submitted from host: <10.0.2.15:36840?addrs=10.0.2.15-36840+[--1]-36840>
     DAG Node: collect
 ...
-001 (057.000.000) 10/20 02:18:07 Job executing on host: <10.0.2.15:25007?addrs=10.0.2.15-25007+[--1]-25007>
+001 (069.000.000) 10/20 15:09:30 Job executing on host: <10.0.2.15:2610?addrs=10.0.2.15-2610+[--1]-2610>
 ...
-006 (057.000.000) 10/20 02:18:07 Image size of job updated: 10
+006 (069.000.000) 10/20 15:09:31 Image size of job updated: 10
 	0  -  MemoryUsage of job (MB)
 	0  -  ResidentSetSize of job (KB)
 ...
-005 (057.000.000) 10/20 02:18:08 Job terminated.
+005 (069.000.000) 10/20 15:09:32 Job terminated.
 	(1) Normal termination (return value 0)
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
 		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
@@ -67,6 +67,6 @@
 	17588  -  Total Bytes Received By Job
 	Partitionable Resources :    Usage  Request Allocated
 	   Cpus                 :                 1         1
-	   Disk (KB)            :       26       20  37782008
+	   Disk (KB)            :       26       20  37683612
 	   Memory (MB)          :        0        1       489
 ...
